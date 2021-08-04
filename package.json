@@ -1,0 +1,22 @@
+{
+  "name": "js-telegrambot-game",
+  "version": "1.0.0",
+  "description": "nodejs, javascript, telegram, postgresql",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "js",
+    "nodejs",
+    "telegram",
+    "bot"
+  ],
+  "author": "Azamat Konyspay <az1k3@outlook.com>",
+  "license": "ISC",
+  "dependencies": {
+    "node-telegram-bot-api": "^0.54.0",
+    "nodemon": "^2.0.12"
+  }
+}
