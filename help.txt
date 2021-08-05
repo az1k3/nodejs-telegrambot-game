@@ -125,4 +125,10 @@ if (data === '/again') {
   });
 20) Создаем файл options.js => туда вырезыаем из index.js {gameOptions, againOptions}
 21) Импортируем модуль options в index.js => const {gameOptions, againOptions} = require('./options.js')
-22) Создаем repository в github , terminal => git init => git add .
+22) Создаем repository в github , terminal => git init => git add . => git commit =m "init"
+=> git remote add origin 'link' => git push origin master
+23) Procfile - для Heroku => web: node index.js
+24) Package.json => "engines": {
+                        "node": "14.17.3"
+                      },
+25)
